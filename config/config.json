@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "password",
-    "database": "pokedex",
+    "database": "sequelize-intro",
     "host": "127.0.0.1",
     "dialect": "postgres"
     }
