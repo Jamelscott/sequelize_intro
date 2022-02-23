@@ -10,6 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "axios": "^0.21.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+>>>>>>> 855650b (sequelize setup)
     "pg": "^8.7.3",
     "sequelize": "^6.16.2"
   }
