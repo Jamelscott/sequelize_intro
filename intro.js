@@ -1,24 +1,24 @@
 const db = require('./models');
 
-db.user.create({
-    firstName: 'Jason',
-    lastName: 'Serafica',
-    age: 27
-}).then(createdUser=>{
-    // the create promise returns the
-    // new row of data that has been created
-    // (otherwise it throws an error)
-    console.log(createdUser)
-    // terminates the node process at this point so that we don't have to force-quit
-    process.exit()
-})
-
-// db.user.findOne({
-//     where: {firstName: 'Jason'}
-// }).then(foundUser=>{
-//     console.log(foundUser)
+// db.user.create({
+//     firstName: 'Jason',
+//     lastName: 'Serafica',
+//     age: 27
+// }).then(createdUser=>{
+//     // the create promise returns the
+//     // new row of data that has been created
+//     // (otherwise it throws an error)
+//     console.log(createdUser)
+//     // terminates the node process at this point so that we don't have to force-quit
 //     process.exit()
 // })
+
+db.user.findOne({
+    where: {firstName: 'Jason'}
+}).then(foundUser=>{
+    console.log(foundUser)
+    process.exit()
+})
 
 // db.user.findOrCreate({
 //     where: {
