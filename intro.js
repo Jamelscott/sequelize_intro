@@ -1,5 +1,6 @@
 const db = require('./models');
 
+// Create
 // db.user.create({
 //     firstName: 'Jason',
 //     lastName: 'Serafica',
@@ -13,12 +14,13 @@ const db = require('./models');
 //     process.exit()
 // })
 
-db.user.findOne({
-    where: {firstName: 'Jason'}
-}).then(foundUser=>{
-    console.log(foundUser)
-    process.exit()
-})
+// Read
+// db.user.findOne({
+//     where: {firstName: 'Jason'}
+// }).then(foundUser=>{
+//     console.log(foundUser)
+//     process.exit()
+// })
 
 // db.user.findOrCreate({
 //     where: {
@@ -36,6 +38,7 @@ db.user.findOne({
 //     // users will be an array of all User instances
 //   });
 
+// Update
 // db.user.update({
 //     lastName: 'Taco'
 //   }, {
@@ -48,6 +51,8 @@ db.user.findOne({
 //     process.exit()
 // });
 
+
+// Delete
 // db.user.destroy({
 //     where: { firstName: 'Brian' }
 //   }).then(numRowsDeleted=>{
