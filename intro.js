@@ -15,12 +15,12 @@ const db = require('./models');
 // })
 
 // Read
-// db.user.findOne({
-//     where: {firstName: 'Jason'}
-// }).then(foundUser=>{
-//     console.log(foundUser)
-//     process.exit()
-// })
+db.user.findOne({
+    where: {firstName: 'Jason'}
+}).then(foundUser=>{
+    console.log(foundUser)
+    process.exit()
+})
 
 // db.user.findOrCreate({
 //     where: {
