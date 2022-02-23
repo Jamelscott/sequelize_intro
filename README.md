@@ -5,7 +5,7 @@ Install the Sequelize CLI:
 npm install -g sequelize-cli
 ```
 
-Create a root user for Sequelize Conig.
+## Create a root user for Sequelize Conig.
 
 Enter the postgres shell:
 `sudo -u postgres psql`
