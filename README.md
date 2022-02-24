@@ -11,7 +11,7 @@ Enter the postgres shell:
 `sudo -u postgres psql`
 
 create a database
-'create database NAME;'
+`create database NAME;`
 
 Create a superuser:
 `CREATE ROLE root superuser;`
