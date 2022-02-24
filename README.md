@@ -10,6 +10,9 @@ npm install -g sequelize-cli
 Enter the postgres shell:
 `sudo -u postgres psql`
 
+create a database
+'create database NAME;'
+
 Create a superuser:
 `CREATE ROLE root superuser;`
 
@@ -18,5 +21,6 @@ Give ths root superuser a password:
 
 Give the root role login privileges:
 `ALTER ROLE root WITH LOGIN;`
+
 
 Adjust your config.json accordingly.
